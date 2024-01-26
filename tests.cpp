@@ -21,7 +21,7 @@ static bool test_file(const std::string& fn_name,
     return false;
 }
 
-static const char* test_filename = "../file1.bin";
+static const char* test_filename = "../../../file1.bin"; //original: ../file1.bin
 
 static struct {
     float x;
