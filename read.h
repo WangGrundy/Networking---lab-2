@@ -16,10 +16,6 @@ template <typename T>
 void read_n(std::ifstream& file, T* out_array, size_t len)
 {
     // TODO: YOUR CODE HERE
-    //file: the file to read from
-    //out_array : a pointer to a buffer of integers to write to
-    //len : the number of elements that should be read from the file and written into out_array
-
     T singleTypeT;
 
     //read len of (elements) 
